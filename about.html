@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>About</title>
+    <style>
+    .overlay-dark::before {
+      content:"";
+      position:absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;}
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> PT.MIRACHELL</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeri.html">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay-dark">
+            <img src="img/10.jfif" style="width: 100%; alt:foto ;">
+              </div>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Perusahaan sepatu yang mempunyai kualitas yang bagus</h1>
+                <p>Beraneka ragam model dan juga harga yang bervariatif.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark">
+           <img src="img/25.png" style="width: 100%">
+            </div>
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Yuk kunjungi website kami dengan berbagai macam warna dan model</h1>
+                <p>Temukan sepatu dengan harga yang standar dan bisa melindungi kaki anda.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark">
+            <img src="img/4.jfif" style="width: 100%;">
+              </div>
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Bingung dengan produk kami?</h1>
+                <p>Tersedia dalam berbagai varian untuk memenuhi kebutuhan .</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h2 class="text-center">Tentang Kami</h2>
+  <p class="text-center">PT.MIRACHELL memiliki beragam sepatu sesuai dengan kesukaan dan kegunaan masing-masing.Ada sepatu olahraga, sepatu untuk bekerja, sepatu untuk beraktivitas santai, sepatu untuk sekolah,
+    dan lain sebagainya. Harga sepatu juga bervariasi. Dari yang cukup tejangkau hingga yang harganya wow lantaran berstatus edisi terbatas(hanya diproduksi dengan jumlah terbatas,terbuat dari bahan berkualitas 
+    nomor satu, serta sifatnya eksklusif)
+  </p>
+<!-- footer -->
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="login.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="galeri.html" class="nav-link px-2 text-body-secondary">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">&copy; @mirachell_  (Jl.kenanga Blok.C No.20 Sumsel)</p>
+    </footer>
+  </div>
+  <!-- akhir footer -->
+      <script src="js/bootstrap.js"></script>
+</body>
+</html>
